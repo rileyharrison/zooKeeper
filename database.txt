@@ -1,0 +1,6 @@
+CREATE TABLE "public"."tbl_animals" (
+    "animals_id" serial,
+    "animal_type" varchar(20),
+    "animal_count" integer,
+    PRIMARY KEY ("animals_id")
+);
